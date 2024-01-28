@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6113d435.css",
+    "main.js": "/static/js/main.65af87f4.js",
+    "static/js/787.2c1cee2b.chunk.js": "/static/js/787.2c1cee2b.chunk.js",
+    "static/media/FondoWeb.jpg": "/static/media/FondoWeb.44f4c76c553ce78f15c8.jpg",
+    "index.html": "/index.html",
+    "main.6113d435.css.map": "/static/css/main.6113d435.css.map",
+    "main.65af87f4.js.map": "/static/js/main.65af87f4.js.map",
+    "787.2c1cee2b.chunk.js.map": "/static/js/787.2c1cee2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6113d435.css",
+    "static/js/main.65af87f4.js"
+  ]
+}
