@@ -23,7 +23,7 @@ function MainComponent({openNav, toggleNav}){
 
     useEffect(() => {
         const observerOptions = {
-            rootMargin: '-50% 0% -50% 0%', // Ajusta esto según tu diseño y preferencias
+            rootMargin: '-50% 0% -50% 0%',
         };
 
         Object.keys(sectionRefs).map(key => 
@@ -33,6 +33,7 @@ function MainComponent({openNav, toggleNav}){
 
     return(
         <main className="main_wrapper" style={{filter : openNav ? 'blur(3px)' : 'none' }}>
+            <div className="welcome_box"></div>
             <button className={`button_open_navbar ${openNav ? 'close' : 'open'}`} onClick={toggleNav}>
                 <TfiMenuAlt  className="button_open_navbar_icon"/>
             </button>
